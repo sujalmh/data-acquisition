@@ -31,6 +31,11 @@ This project is a **FastAPI-based AI agent** that integrates **LangChain**, **Pl
 - `POST /query` - Accepts a JSON payload with a query and returns AI-generated results.
   ```json
   {
-    "query": "Find the latest RBI monetary policy report."
+    "query": "Collect file or api links for India CPI data 2025."
+  }
+  ```
+    ```json
+  {
+    "query": "Collect file or api links for India Monetary Policy Report."
   }
   ```
